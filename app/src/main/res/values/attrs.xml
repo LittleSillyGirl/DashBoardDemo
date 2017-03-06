@@ -1,0 +1,49 @@
+<resources>
+    <!--自定义仪表盘的属性-->
+    <declare-styleable name="DashBoardView">
+        <!--刻度的区分 360分成12等份  没等份的刻度-->
+        <attr name="scaleInterval" format="integer" />
+        <!--刻度的宽度-->
+        <attr name="scaleWidth" format="dimension" />
+        <!--刻度的高度-->
+        <attr name="scaleHeight" format="dimension" />
+        <!--刻度颜色-->
+        <attr name="scaleColor" format="color" />
+        <!--指示器颜色-->
+        <attr name="indicatorColor" format="color" />
+        <!--指示器drawable-->
+        <attr name="indicatorDrawable" format="color|reference" />
+        <!--刻度距离内圆间隔-->
+        <attr name="scaleToInnerCircleInterval" format="dimension" />
+        <!--内圆的半径-->
+        <attr name="innerCircleRadius" format="dimension" />
+        <!--内圆的颜色-->
+        <attr name="innerCircleColor" format="color" />
+        <!--内圆的边框大小-->
+        <attr name="innerCircleStroke" format="dimension" />
+        <!--指示器的文字大小-->
+        <attr name="indicatorTextSize" format="dimension" />
+        <!--指示器的文字颜色-->
+        <attr name="indicatorTextColor" format="color" />
+        <!--指示器的文字类型-->
+        <attr name="indicatorTextStyle">
+            <flag name="normal" value="0" />
+            <flag name="bold" value="1" />
+            <flag name="italic" value="2" />
+        </attr>
+        <!--指示器的文字对齐方式-->
+        <attr name="indicatorTextAlgin">
+            <flag name="left" value="0" />
+            <flag name="center" value="1" />
+            <flag name="right" value="2" />
+        </attr>
+
+        <!--外圆的半径大小-->
+        <attr name="circumCircleRadius" format="dimension" />
+        <!--外圆的颜色-->
+        <attr name="circumCircleColor" format="color" />
+        <!--外圆的边框大小-->
+        <attr name="circumCircleStroke" format="dimension" />
+
+    </declare-styleable>
+</resources>

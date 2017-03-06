@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dashboard="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:text="安卓仪表盘演示" />
+
+
+
+    <com.mproject.exercisedemo.dashboarddemo.view.DashBoardView
+        android:paddingTop="@dimen/space_2"
+        android:id="@+id/dbv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        dashboard:innerCircleColor="@color/stat_support_default"
+        dashboard:innerCircleStroke="@dimen/space_4"
+        dashboard:scaleInterval="45"
+        dashboard:scaleWidth="@dimen/space_1"
+        dashboard:scaleHeight="@dimen/space_12"
+        dashboard:scaleToInnerCircleInterval="@dimen/space_5"
+        dashboard:indicatorDrawable="@drawable/stat_support_indicate_default"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/stat_support_indicate_default"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:text="安卓仪表盘的进度" />
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/darker_gray"
+        android:text="0" />
+
+</LinearLayout>
+
+
